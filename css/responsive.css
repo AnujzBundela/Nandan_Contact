@@ -1,0 +1,482 @@
+:root {
+  --Black: #101010;
+  --textGrey: #2e2e2e;
+  --textLightGrey: #505050;
+  --darkGreen: #10221b;
+  --LightBgGrey: #f3f7fa;
+  --primary: #14213d;
+  --secondary: #ae8625;
+  --BgCream: #fcf9f6;
+  --BGrey: #e1e3e5;
+}
+
+@media only screen and (min-width: 1920px) {}
+
+
+@media (max-width: 1500px) {
+  .ExtraPadd{
+    padding-left: 200px;
+  }
+
+  .Banner{
+    background: url('../image/WorldMap.png'), linear-gradient(var(--BgCream),var(--BgCream));
+    background-repeat: no-repeat no-repeat;
+    background-size: auto 600px, cover;
+    background-position: calc(100% - 50px) top, center;
+    isolation: isolate;
+    }
+}
+
+@media (max-width: 1480px) {
+  .ExtraPadd{
+    padding-left: 100px;
+  }
+
+}
+
+@media (max-width: 1399.98px) {
+  .ExtraPadd{
+    padding-left: 20px;
+  }
+
+.secH {
+  font-size: 48px;
+}
+
+ }
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+ 
+}
+
+
+
+@media (max-width: 1199.98px) { 
+
+  .secH {
+    font-size: 40px;
+  }
+
+  .therdH {
+    font-size: 22px;
+  }
+  .ExtraPadd{
+    padding-left: 12px;
+  }
+
+  #accordionExample  #headingFive button{
+   border-radius: 0;
+  }
+  .FAQ_Section .accordion {
+    border-radius: 0;
+}
+  #accordionExample2  #headingOne2 button{
+   border-radius: 0;
+  }
+
+  .FAQ_Section   #accordionExample  .accordion-item:last-child {
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+  
+.duolingoCard{
+  padding-bottom: 0px;
+}
+
+  .Banner{
+    background: url('../image/WorldMap.png'), linear-gradient(var(--BgCream),var(--BgCream));
+    background-repeat: no-repeat no-repeat;
+    background-size: auto 465px, cover;
+    background-position: calc(100% - 50px) top, center;
+    isolation: isolate;
+    }
+
+.display-3 {
+  font-size: 36px;
+}
+.Banner .container-fluid {
+  width: 100%;
+  max-width: 100%;
+  padding: 60px 30px;
+}
+.allLinksFooter{
+  row-gap: 24px;
+}
+
+.navbar-brand {
+  margin-right: 24px;
+  width: 9rem;
+}
+.navbar-nav {
+  gap: 24px;
+}
+.preferredLocation{
+  background: none;
+}
+.duolingoCard .therdH{
+  width: 227px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.realExam .therdH{
+  width: 232px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ }
+
+ @media (max-width: 1086.98px) {
+  .package-info-block{
+    width: 50%;
+  }
+
+  
+.duolingoCard{
+  padding-bottom: 62px;
+}
+
+.countryCard .therdH{
+  font-size: 20px;
+}
+
+.VisaBanner .col-lg-6{
+  width: 100% !important;
+}
+
+.footer-address{
+  max-width: 286px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ }
+
+ 
+ @media (min-width: 992px) {
+  .VisaBanner .col-lg-6{
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991.98px) { 
+
+  .secH {
+    font-size: 36px;
+  }
+
+  .therdH {
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    gap: 0px;
+}
+.nav-link {
+  padding: 8px 0px !important;
+}
+
+
+  .miniheader .container-fluid > .row {
+    justify-content: center;
+}
+
+.Banner{
+  background: linear-gradient(var(--BgCream),var(--BgCream));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .duolingoCard{
+    padding-bottom: 0px;
+  }
+  
+  .f-bottom .row{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  .f-bottom .inner{
+    text-align: center;
+  }
+
+
+   .HighlightedTopics .secH{
+    margin-left: 0;
+   }
+
+   .Topics2 .container-fluid>.row{
+    flex-direction: column-reverse;
+    row-gap: 24px;
+   }
+
+   .VisaBanner .display-3{
+    font-size: 46px;
+  }
+     .newFont{
+      font-family: 'Cooper';
+      font-size: 50px;
+    }
+  .VisaBanner .therdH{
+    font-size: 26px;
+  }
+
+  
+
+ }
+
+ @media screen and (max-width: 912px) {
+ 
+  .f-bottom.effect::after{
+    display: none;
+  }
+
+ }
+
+
+@media (max-width: 767.98px) {
+
+  .secH {
+    font-size: 32px;
+  }
+
+  .fifthH {
+    font-size: 18px;
+  }
+
+  .miniheader .fifthH {
+   font-size: 16px;
+}
+
+header .container-fluid {
+  padding: 0px 35px;
+}
+
+ .display-3{
+  font-size: 32px;
+}
+.Banner .display-3{
+  text-align: center;
+}
+.Banner {
+  text-align: center;
+}
+.inner-container {
+  padding: 30px 30px;
+}
+
+
+.miniheader .fifthH{
+  font-size: 14px;
+}
+
+
+.BigSizebtn.btnBlue{
+  display: table;
+  width: 74%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.FAQ_Section .accordion-button {
+  padding: 30px 18px;
+}
+.ourService {
+  padding-top: 0;
+}
+
+.VisaBanner{
+  padding: 140px 12px;
+  text-align: center;
+}
+.VisaBanner.UK_VistorPage0{
+  background: linear-gradient(#10101060,#10101060), url('../image/UkVisitor.png') no-repeat right;
+  background-size: cover;
+  }
+  .VisaBanner.USA_VistorPage0{
+    background:linear-gradient(to right,#10101060,#10101060) no-repeat center,  url('../image/USA_Banner.png') no-repeat center;
+    background-size: cover,cover;
+    background-position: right;
+    padding: 140px 12px;
+    }
+    .VisaBanner.CANADA_VistorPage0 {
+      padding: 140px 12px;
+  }
+  .VisaBanner.USA_studentPage0 {
+    background: linear-gradient(to right, #10101079 30%, #10101079) no-repeat center,
+      url("../image/SutentVisaUSA.png") no-repeat center;
+    background-size: cover, cover;
+    background-position: right;
+  }
+  
+
+  .VisaBanner.NewZealand_VistorPage0{
+    background: linear-gradient(to right, #10101080 15%, #10101080) no-repeat center,
+      url("../image/NewZealand_bannerVisitor.png") no-repeat;
+    background-size: cover, cover;
+    background-position: center, center right;
+  }
+
+  .VisaBanner.UK_studentPage0{
+    background: linear-gradient(to right, #10101075, #10101075) no-repeat center,
+    url("../image/UK_student.png") no-repeat center;
+  background-size: cover, cover;
+  }
+  .VisaBanner.Australia_studentPage0{
+    background: linear-gradient(to right, #1010108a, #1010108a) no-repeat center,
+    url("../image/Australia_Banner.png") no-repeat center right;
+    background-size: cover, cover;
+  }
+
+  .VisaBanner.Singapore_VistorPage0{
+    background: linear-gradient(to right, #1010108a 15%, #1010108a) no-repeat center,
+      url("../image/SingaporeVisitor.png") no-repeat;
+    background-size: cover, cover;
+    background-position: center, center right;
+  }
+  .VisaBanner ul{
+    margin-left: auto;
+    padding: 16px  16px 16px 32px;
+    background-color: #10101069;
+    border-radius: 8px;
+    margin-right: auto;
+    width: fit-content;
+  }
+  .VisaBanner .therdH,.VisaBanner .display-3{
+    color: #ffffff;
+    text-align: center;
+  }
+  .visaContentSection .container-fluid>.row{
+    margin-top: 50px;
+    row-gap: 30px;
+}
+.visaContentSection .ReverseRowD{
+  flex-direction: column-reverse;
+}
+.Footer {
+  padding-top: 50px;
+}
+.maps iframe{
+ margin-top: 30px;
+  }
+
+
+  .VisaBanner .display-3{
+    font-size: 34px;
+  }
+
+  .newFont{
+    font-family: 'Cooper';
+    font-size: 38px;
+  }
+  .VisaBanner .therdH{
+    font-size: 24px;
+  }
+
+  .VisaBanner ul {
+    font-size: 16px;
+  }
+  #alertBox .alert {
+    width: 100%;
+    max-width: 400px;
+  }
+
+ }
+
+
+ @media screen and (max-width: 600px) {
+
+  table.ResponsiveTable thead {
+    display: none;
+  }
+
+  table.ResponsiveTable tbody td {
+    display: block;
+  }
+
+ 
+
+  table.ResponsiveTable tbody tr td:first-child {
+    background: var(--primary);
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  table.ResponsiveTable tbody td:before {
+    content: attr(data-th);
+    font-weight: normal;
+    display: block;
+  }
+  table.ResponsiveTable tbody > tr> td:nth-child(2)::before {
+   font-weight: bold;
+  }
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+  .Banner.HomePage0 .display-3{
+    font-size: 24px;
+    }
+    
+    .newFont{
+      font-family: 'Cooper';
+      font-size: 32px;
+      line-height: 0;
+    }
+  .secH {
+    font-size: 26px;
+    margin-bottom: 34px;
+  }
+
+  .inner-container {
+   margin: 0;
+}
+.inner-container:first-child {
+ padding-bottom: 0;
+ margin-bottom: -2px;
+ position: relative;
+ z-index: 1;
+ border-radius: 6px 6px 0 0;
+}
+.inner-container:nth-child(2) {
+ border-radius:  0 0 6px 6px;
+}
+
+  .navbar-brand {
+    margin-right: 15px;
+    width: 12rem;
+}
+.package-info-block{
+  width: 100%;
+}
+
+.maps iframe{
+  aspect-ratio: unset;
+  min-height: 500px;
+  }
+  
+  .allLinksFooter {
+    margin-top: 24px !important;
+  }
+
+  .defaultPadding100 {
+    padding: 50px 0;
+}
+
+
+.BrandFooter {
+  width: 12rem;
+}
+
+}
+
+ 
+
